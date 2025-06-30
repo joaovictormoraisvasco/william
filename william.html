@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobre William Teixeira</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            color: #333;
+        }
+
+        header {
+            background: rgba(0, 0, 0, 0.8);
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 40px auto;
+            background: #fff;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+            animation: fadeIn 1s ease;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(-20px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        img {
+            width: 200px;
+            border-radius: 50%;
+            display: block;
+            margin: 0 auto 20px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+            transition: transform 0.3s ease;
+        }
+
+        img:hover {
+            transform: scale(1.05);
+        }
+
+        h1,
+        h2,
+        h3 {
+            text-align: center;
+            color: #333;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        ul li {
+            background: #f4f4f4;
+            margin: 8px 0;
+            padding: 12px;
+            border-radius: 6px;
+            transition: background 0.3s, transform 0.3s;
+            cursor: pointer;
+        }
+
+        ul li:hover {
+            background: #ddd;
+            transform: translateX(5px);
+        }
+
+        .contact-button {
+            display: block;
+            width: 200px;
+            margin: 30px auto 0;
+            padding: 12px 20px;
+            background: #764ba2;
+            color: #fff;
+            text-align: center;
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: bold;
+            transition: background 0.3s, transform 0.3s;
+        }
+
+        .contact-button:hover {
+            background: #667eea;
+            transform: scale(1.05);
+        }
+
+        @media (max-width: 600px) {
+            .container {
+                padding: 20px;
+                margin: 20px;
+            }
+
+            img {
+                width: 150px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>William Teixeira</h1>
+    </header>
+
+    <div class="container">
+        <img src="159394654.jpg" alt="William Teixeira">
+
+        <h2>👨‍💻 Desenvolvedor Sênior | Educador SENAI | Ex-DJ | Apaixonado por Chimarrão</h2>
+
+        <section>
+            <h3>Sobre mim</h3>
+            <p>Olá! Sou William Teixeira, desenvolvedor sênior com vasta experiência no mercado de tecnologia. Atualmente, dedico parte do meu tempo a ensinar e formar novos talentos no SENAI, onde compartilho conhecimentos práticos e vivência real de mercado com estudantes que estão começando na área.</p>
+            <p>Nascido em Chapecó (SC), trago comigo não só o sotaque e o amor pela cultura gaúcha, mas também o hábito diário de tomar um bom chimarrão, que me acompanha em cada linha de código.</p>
+            <p>Além da tecnologia, já tive uma vida agitada como DJ, o que me ensinou muito sobre criatividade, ritmo e conexão com as pessoas. Hoje, sou casado e sigo aproveitando cada momento da minha jornada, sempre buscando evolução.</p>
+        </section>
+
+        <section>
+            <h3>💻 Tecnologias e Especialidades</h3>
+            <ul>
+                <li>JavaScript, TypeScript</li>
+                <li>Node.js, React, Angular</li>
+                <li>HTML5, CSS3, SASS</li>
+                <li>Banco de Dados: MySQL, MongoDB</li>
+                <li>Arquitetura de Software</li>
+                <li>Mentoria e Ensino</li>
+            </ul>
+        </section>
+
+        <section>
+            <h3>🎯 O que me motiva</h3>
+            <ul>
+                <li>Formar novos profissionais</li>
+                <li>Resolver problemas complexos</li>
+                <li>Trabalhar em equipe</li>
+                <li>Criar soluções que realmente impactem pessoas</li>
+            </ul>
+        </section>
+
+        <section>
+            <h3>☕ Curiosidades</h3>
+            <ul>
+                <li>Apaixonado por chimarrão</li>
+                <li>Ex-DJ: a batida agora é no teclado</li>
+                <li>Sempre aberto a novas conversas e desafios</li>
+            </ul>
+        </section>
+
+        <section>
+            <h3>📫 Vamos conversar?</h3>
+            <p>Sinta-se à vontade para me chamar para trocar uma ideia sobre desenvolvimento, ensino, ou até para compartilhar uma roda de chimarrão!</p>
+            <a href="#" class="contact-button">Entrar em Contato</a>
+        </section>
+    </div>
+
+</body>
+
+</html>
